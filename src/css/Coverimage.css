@@ -1,0 +1,94 @@
+.header {
+    padding: 235px 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.5) ,rgba(0,0,0,0.5)),url(../img/roza.png);
+    background-color: black;
+    opacity: 60;
+    background-position: center;
+    background-size: cover;
+    height: 160px; 
+  }
+
+.headerContent h1{
+    margin-bottom :18px;
+    font-size: 45px;
+    font-family: Poppins;
+    color:#fff;
+    text-align: center;
+    font-weight:unset;
+}
+
+.SearchContainer {
+    max-width: 580px;
+    height: 50px;
+    margin: auto;
+    border-radius: 30px;
+    padding: 0px 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+}
+.SearchContainer form input{
+    width: 580px;
+    border-radius: 30px;
+    height: 50px;
+    margin: auto;
+    padding: 0px 10px;
+    border: none;
+}
+
+.SearchIcon img{
+    position: absolute;
+    right: 25px;
+    top: 15px;
+  }
+
+.Head p{
+    margin-top: 53px;
+    left: 626px;
+    color:#00B158;
+    font-size: 20px;
+    text-align: center;
+}
+  
+.Head h4{
+    height: 53px;
+    left: 517px;
+  color:#17285A;
+  font-size: 38px;
+  font-weight: 600;
+  text-align:center;
+  margin:0;
+}
+ .button{  
+    border-radius: 25px;
+    background-color: #00B158;
+    color: #FFFFFF;
+    width: 187px;
+    height: 45px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: auto;
+} 
+
+.sidebutton{
+    max-width: 1090px;
+    margin:auto;
+}
+.button button{
+    background: transparent;
+    border: none;
+    color: #FFFFFF;
+    font-size:16px;
+}
+
+/* .addlink li {
+    list-style:none;
+}
+
+
+.innerlink a{
+    text-decoration:none;
+    align-items: center;
+} */

@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('http://fonts.cdnfonts.com/css/apple-chancery');
+
+
+.MainContainer{
+    display : flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    
+}
+.MainBox{
+    border-bottom: 3px solid #00B158;
+}
+
+.innermenu{
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu li{
+    list-style: none;    
+}
+
+.menu li{
+    margin-right: 30px;
+}
+
+.menu li:first-child{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:17px;
+    background-color: #00B158;
+    width: 93px;
+    height: 33px;
+}
+.innermenu li a:first-child{
+    color:#FFFFFF;
+}
+.menu ul a:last-child{
+    color: #363636;;
+}
+
+.innermenu li a {
+    font-size:18px;
+    text-decoration:none;
+}
+
+.menu li:last-child{
+    margin-right: 0;
+}
+
+.Hambrug{
+display:none;
+}
+  
+@media (max-width:768px) {
+
+    .LogoContainer{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+    }
+    .Hambrug{
+        display:flex;
+    }
+    .menu{
+        display:none;
+    }
+}
