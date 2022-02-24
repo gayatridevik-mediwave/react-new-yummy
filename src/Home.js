@@ -1,12 +1,9 @@
-
 import { BrowserRouter } from "react-router-dom";
 import { Nav } from "./components/Nav";
 import CoverImage from "./components/CoverImage";
+import React from "react";
+// import { Footer } from "./components/Footer";
 import Cards from "./components/Cards";
-import Footer from "./components/Footer";
-
-
-
 
 function App() {
   return (
@@ -15,7 +12,7 @@ function App() {
         <Nav />
         <CoverImage />
         <Cards />
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </>
 

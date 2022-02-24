@@ -1,11 +1,12 @@
-.Main-grid{
+.RecipeCardWrap{
     margin-top: 103px;
     display:grid;
     grid-template-columns: auto auto auto;
     gap: 25px;
     justify-content: center;
+    border-radius: 15px;
 }
-.flex{
+.RecipeCard{
     width: 343px;
     height: 223px;
     min-height: 335px;
@@ -13,7 +14,13 @@
     box-shadow: 0px 3px 6px #00000029;
     border: 1px solid #CBCBCB;
     border-radius: 15px;
+    height:345px;
 }
-.Inner-grid img{
-    width: 343px;
+.CoverImg img{
+    width:343px;
+    height:250px;
+    border-radius: 15px;
+}
+.Content{
+    height:250px;
 }
